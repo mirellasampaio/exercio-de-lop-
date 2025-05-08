@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int main () {      // ponto de partida 
-    setlocale(LC_ALL,"");    
+    setlocale(LC_ALL,"");  // localidade 
     int nume;
     printf("Digite o numero:\n"); //mostra as informações e dados 
     scanf("%d", &nume); // faz a leitura de dados 
